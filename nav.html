@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractive Navbar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        /* Navbar styling */
+        .navbar {
+            background-color: #3705ec; /* Dark Green background */
+            overflow: hidden;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            float: left; /* Align links to the left */
+            color: white; /* White text */
+            padding: 14px 20px; /* Padding around links */
+            text-decoration: none; /* Remove underline */
+            text-align: center; /* Center text */
+            transition: background-color 0.3s; /* Smooth transition for hover */
+        }
+        .navbar a:hover {
+            background-color: #f1022a; /* Lighter green on hover */
+        }
+        .photo-container {
+            display: flex;
+            justify-content: center; /* Centers the content horizontally */
+            align-items: center; /* Centers the content vertically */
+            background-color: #1fcc0f; /* Light gray background color */
+            padding: 40px 0; /* Space around the image */
+        }
+        .move
+        {
+            font-size: 24px;
+            color: #f1ebeb; /* Dark color for the text */
+            text-align: center;
+            margin-top: 20px; /* Space above the moving tag */
+            background-color: #f1022a;
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="photo-container">
+    <img src="circle copy.png" alt="Your Photo" class="photo" width="250">
+    </div>
+    <div class="move">
+        <marquee>
+قارى ذاكر حسين ندوى
+        </marquee>
+    </div>
+</body>
+</html>
